@@ -1,0 +1,183 @@
+
+body {
+	background-color: white;
+	font-family: "Oswald", sans-serif;
+}
+
+
+.header {
+	height: 100px;
+	max-width: 100%;
+	margin: 0 60px 0 60px;
+	position: relative;
+	background-color: #94ABB9;
+	border-bottom: solid black 5px;
+	overflow: hidden;
+}
+
+.header div {
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 5vw;
+	font-family: 'Oswald', sans-serif;
+}
+
+.header-left {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.header-right {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.header img {
+	margin: 10px;
+	height: 80%;
+}
+
+.header a {
+	color: black;
+	text-decoration: none;
+}
+
+.header a:hover {
+	color: #F15206;
+	text-decoration: none;
+}
+
+
+
+
+
+nav {
+	font-family: "Oswald", sans-serif;
+	list-style: none;
+	padding: 0; 
+	text-align: center;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 10px; 
+	padding: 0;
+}
+
+.notpage {
+	border-left: solid white 4px;
+	border-right: solid white 4px;
+}
+
+nav a {
+	color: #F15206;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #F15206;
+	text-decoration: underline;
+}
+
+nav a:visited {
+	color: #F15206;
+}
+
+
+
+
+
+
+
+
+.content {
+	max-width: 100%;
+	margin: 0 60px 0 60px;
+	height: 1000px;
+	background-color: #E2E8F2;
+	border-top: solid black 5px;
+}
+
+.index-content {
+	max-width: 100%;
+	margin: 0 60px 0 60px;
+	padding-bottom: 40px;
+	background-color: #E2E8F2;
+	border-top: solid black 5px;
+}
+
+.index-content p {
+	text-align: center;
+}
+
+
+
+
+
+.donate {
+	position: fixed;
+	bottom: 10px;
+	right: 8px;
+}
+
+.donate a {
+	float: right;
+	clear: right;
+}
+
+.donate div {
+	text-align: center;
+	font-family: "Oswald", sans-serif;
+}
+
+.donate {
+	color: black;
+	text-decoration: none;
+}
+
+
+.social-media {
+	position: fixed;
+	bottom: 10px;
+	left: 17px;
+}
+
+.social-media a {
+	float: left;
+	clear: left;
+}
+
+
+
+footer {
+	font-family: "Courier New", serif;
+	font-size: 10px;
+	text-align: center;
+	padding: 20px 0 5px 0;
+}
+
+.thispage {
+	color: #E2E8F2;
+	background-color: black;
+	border-left: solid black 4px;
+	border-right: solid black 4px;
+}
+
+a.thispage:visited {
+	color: #E2E8F2;
+}
+
+
+.hole {
+	display: block;
+	width: 35%;
+	margin: 0 auto;
+}

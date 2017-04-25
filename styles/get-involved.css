@@ -1,0 +1,11 @@
+div.get-wrap {
+		text-align: center;
+		font-size: 15px;
+		max-width: 60%;
+		margin:0 auto;
+		margin-top: 60px;
+}
+	.get-wrap p {
+	font-family: "Oswald", serif;
+	font-weight: lighter;
+}
