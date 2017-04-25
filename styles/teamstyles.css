@@ -1,51 +1,15 @@
-.team-content {
-	max-width: 100%;
-	margin: 0 60px 0 60px;
-	padding-bottom: 100px;
-	background-color: #E2E8F2;
-	border-top: solid black 5px;
-}
+.team-content {}
 
-.team-info {
-	width: 60%;
-	margin: 60px auto;
-}
+.team-info {}
 
-.arnold {
-	width: 90%;
-	display: block;
-	margin: 80px auto 0 auto;
-}
+.arnold {}
 
-.team-info h1{
-	font-size: 2vw;
-	text-align: center;
-	border-bottom: solid black 4px;
-	margin-bottom: 40px;
-	clear: both;
-}
+.team-info h1 {}
 
-.endblurb {
-	border-bottom: solid black 4px;
-	margin-bottom: 50px;
-}
+.endblurb {}
 
-.team-info h2 {
-	margin: 40px 0 40px 0;
-}
+.team-info h2 {}
 
-.zach, .steve {
-	width: 35%;
-	float: left;
-	margin: 0 40px 0px 0;
-}
+.zach, .steve {}
 
-
-
-.volunteers {
-	width: 80%;
-	display: block;
-	margin: 0px auto 0 auto;
-	clear: both;
-}
-
+.volunteers {}

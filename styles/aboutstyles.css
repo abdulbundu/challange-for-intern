@@ -1,98 +1,31 @@
-.about-content {
-	max-width: 100%;
-	margin: 0 60px 0 60px;
-	padding-bottom: 100px;
-	background-color: #E2E8F2;
-	border-top: solid black 5px;
-}
+.about-content {}
 
-.about-blurb {
-	max-width: 60%;
-	margin: 70px auto;
-}
-.manhole {
-	display: block;
-	width: 20%;
-	margin: 10px;
-	float: left;
-}
-.toiletferret {
-	display: block;
-	width: 20%;
-	margin: 0 10px 0 10px;
-	float: right;
-}
+.about-blurb {}
 
-.about-clear {
-	clear: both;
-}
+.manhole {}
 
-.about-left {
-	display: block;
-	width: 45%;
-	float: left;
-}
+.toiletferret {}
 
-.about-right {
-	display: block;
-	width: 45%;
-	float: right;
-}
+.about-clear {}
 
-.caption-left {
-	font-size: 1.4vw;
-	float: left;
-	clear: both;
-}
+.about-left {}
 
-.caption-right {
-	font-size: 1.4vw;
-	float: right;
-}
+.about-right {}
 
+.caption-left {}
 
+.caption-right {}
 
+.endorsements {}
 
-.endorsements {
-	display: inline-block;
-	clear: both;
-	margin-top: 70px;
-}
+.endorsements h1 {}
 
-.endorsements h1 {
-	font-size: 3vw;
-	text-align: center;
-	border-bottom: solid black 4px;
-}
+.hilton {}
 
-.hilton {
-	display: block;
-	width: 40%;
-	margin: 10px 2px 10px 10px;
-	border: solid black 2px;
+.harry {}
 
-	float: left;
-}
+.about-celeb {}
 
-.harry {
-	display: block;
-	width: 40%;
-	margin: 10px 2px 10px 10px;
-	border: solid black 2px;
-	float: left;
-	clear: left;
-}
+.about-celeb h2 {}
 
-.about-celeb {
-	margin-left: 42%;
-	margin-bottom: 40px;
-}
-
-.about-celeb h2 {
-	font-size: 2vw;
-}
-
-.about-celeb blockquote {
-	font-family: "Courier New", serif;
-	font-size: 1.2vw;
-}
+.about-celeb blockquote {}
