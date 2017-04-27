@@ -2,50 +2,49 @@
 <html>
 	<head>
 		<title>Philly Resuce Ferrets</title>
-		<link rel="stylesheet" type="text/css" href="styles/prfstyles.css">
+		<link rel='stylesheet' type='text/css' href='styles/prf-styles.css'>
+		<link rel='stylesheet' type='text/css' href='styles/index-styles.css'>
 		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-		<meta charset="UTF-8">
+		<meta charset='UTF-8'>
 	</head>
 	<body>
 		<div class='header'>
-			<img class='header-left' src="images/headferret1.png" alt="FERRET">
-			<div>
-				~ <a href="index.html">PHILLY RESCUE FERRETS</a> ~
-			</div>
-			<img class='header-right' src="images/headferret2.png" alt="FERRET">
+			<img class='header__img header__img--left' src='images/headferret1.png' alt='FERRET'>
+			<h1 class='header__heading'> ~ <a class='header__link' href='index.html'>PHILLY RESCUE FERRETS</a> ~ </h1>
+			<img class='header__img header__img--right' src='images/headferret2.png' alt='FERRET'>
 		</div>
 
-		<nav>
-			<ul>
-				<li><a class="notpage" href="about.html">ABOUT</a></li>
-				<li><a class="notpage" href="ferrets.html">MEET THE FERRETS</a></li>
-				<li><a class="notpage" href="team.html">MEET THE TEAM</a></li>
-				<li><a class="notpage" href="getinvolved.html">GET INVOLVED</a></li>
+		<nav class='primary-nav'>
+			<ul class='primary-nav__menu-list'>
+				<li class='primary-nav__menu-item'><a class='primary-nav__link notpage' href='about.html'>ABOUT</a></li>
+				<li class='primary-nav__menu-item'><a class='primary-nav__link notpage' href='ferrets.html'>MEET THE FERRETS</a></li>
+				<li class='primary-nav__menu-item'><a class='primary-nav__link notpage' href='team.html'>MEET THE TEAM</a></li>
+				<li class='primary-nav__menu-item'><a class='primary-nav__link notpage' href='getinvolved.html'>GET INVOLVED</a></li>
 			</ul>
 		</nav>
 
-		<div class='index-content'>
-			<p>The ferrets need help. Someone needs to help them. We are here to help them.</p>
-			<p>We are Philly Rescue Ferrets.</p>
-			<img class='hole' src="images/inahole.jpg" alt="">
+		<div class='content content--home-page'>
+			<p class='home-page__paragraph' >The ferrets need help. Someone needs to help them. We are here to help them.</p>
+			<p class='home-page__paragraph' >We are Philly Rescue Ferrets.</p>
+			<img class='home-page__hole' src='images/inahole.jpg' alt='ferrets'>
 		</div>
 
-		<a class='donate' href='http://www.paypal.com' target="_blank">
-			<div>
-				<div>DONATE</div>
-				<img src='images/donate.png' alt='donate'>
-				<div>NOW!</div>
+		<a class='donate-link' href='http://www.paypal.com' target='_blank'>
+			<div class='donate-link__element'>
+				<div class='donate-link__text'>DONATE</div>
+				<img class='donate-link__image' src='images/donate.png' alt='donate'>
+				<div class='donate-link__text'>NOW!</div>
 			</div>
 		</a>
 
 		<div class='social-media'>
-			<a href='http://www.myspace.com' target="_blank"><img src='images/myspace.png' alt='myspace'></a>
-			<a href='http://www.facebook.com' target="_blank"><img src='images/facebook.png' alt='facebook'></a>
-			<a href='http://www.twitter.com' target="_blank"><img src='images/twitter.png' alt='twitter'></a>
+			<a class='social-media__link' href='http://www.myspace.com' target='_blank'><img class='social-media__image' src='images/myspace.png' alt='myspace'></a>
+			<a class='social-media__link' href='http://www.facebook.com' target='_blank'><img class='social-media__image' src='images/facebook.png' alt='facebook'></a>
+			<a class='social-media__link' href='http://www.twitter.com' target='_blank'><img class='social-media__image' src='images/twitter.png' alt='twitter'></a>
 		</div>
 
-		<footer>
+		<div class='footer'>
 			&copy; 2015 Philly Rescue Ferrets EST. 1992
-		</footer>
+		</div>
 	</body>
 </html>
