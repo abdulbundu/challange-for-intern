@@ -1,39 +1,178 @@
-.content--about {}
+.content--about {
+	max-width: 100%;
+    margin: 0 60px 0 60px;
+    padding-bottom: 40px;
+    background-color: #E2E8F2;
+    border-top: solid black 5px;
+}
 
-.about__container {}
+.about__container {
+	max-width: 60%;
+    margin: 70px auto;
+    font-family: "Oswald", sans-serif;
+}
 
-.about__paragraph
+.about__paragraph {}
 
 .about__paragraph--clear {}
 
-.manhole {}
+.manhole {
+	display: block;
+    width: 20%;
+    margin: 10px;
+    float: left;
+}
 
-.toiletferret {}
+.toiletferret {
+	display: block;
+    width: 20%;
+    margin: 0 10px 0 10px;
+    float: right;
+}
 
-.adopter-image--left {}
+.adopter-image--left {
+	display: block;
+    width: 45%;
+    float: left;
+}
 
-.adopter-image--right {}
+.adopter-image--right {
+	display: block;
+    width: 45%;
+    float: right;
+}
 
-.adopter-caption--left {}
+.adopter-caption--left {
+	font-size: 1.4vw;
+    float: left;
+    clear: both;
+}
 
-.adopter-caption--right {}
+.adopter-caption--right {
+	font-size: 1.4vw;
+    float: right;
+}
 
-.endorsements {}
+.endorsements {
+	display: inline-block;
+    clear: both;
+    margin-top: 70px;
+}
 
-.endorsements__heading {}
+.endorsements__heading {
+	font-size: 3vw;
+    text-align: center;
+    border-bottom: solid black 4px;
+}
 
-.hilton__image {}
+.hilton__image {
+	display: block;
+    width: 40%;
+    margin: 10px 2px 10px 10px;
+    border: solid black 2px;
+    float: left;
+    clear: left;
+}
 
-.hilton__blurb {}
+.hilton__blurb {
+	margin-left: 42%;
+    margin-bottom: 40px;
+}
 
-.hilton__heading {}
+.hilton__heading {
+	  
+}
 
-.hilton__quote {}
+.hilton__quote {
+	font-family: "Courier New", serif;
+    font-size: 1.2vw;
+}
 
-.harry__image {}
+.harry__image {
+	display: block;
+    width: 40%;
+    margin: 10px 2px 10px 10px;
+    border: solid black 2px;
+    float: left;
+    clear: left;
+}
 
-.harry__blurb {}
+.harry__blurb {
+	margin-left: 42%;
+    margin-bottom: 40px;
+}
 
-.harry__heading {}
+.harry__heading {
+	font-size: 2vw;
+}
 
-.harry__quote {}
+.harry__quote {
+	font-family: "Courier New", serif;
+    font-size: 1.2vw;
+}
+
+
+@media (min-width: 700px) {
+
+
+
+.content--about {
+}
+
+.about__container {
+}
+
+.about__paragraph {}
+
+.about__paragraph--clear {}
+
+.manhole {
+}
+
+.toiletferret {
+}
+
+.adopter-image--left {
+}
+
+.adopter-image--right {
+}
+
+.adopter-caption--left {
+}
+
+.adopter-caption--right {
+}
+
+.endorsements {
+}
+
+.endorsements__heading {
+}
+
+.hilton__image {
+}
+
+.hilton__blurb {
+}
+
+.hilton__heading {
+	  
+}
+
+.hilton__quote {
+}
+
+.harry__image {
+}
+
+.harry__blurb {
+}
+
+.harry__heading {
+}
+
+.harry__quote {
+}
+
+}

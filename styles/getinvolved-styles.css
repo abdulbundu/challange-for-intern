@@ -1,5 +1,18 @@
-.content--getinvolved {}
+.content--getinvolved {
+	max-width: 100%;
+    margin: 0 60px 0 60px;
+    height: 1000px;
+    background-color: #E2E8F2;
+    border-top: solid black 5px;
+    font-family: "Oswald", sans-serif;
+}
 
-.getinvolved__wrap {}
+.getinvolved__wrap {
+	text-align: center;
+    font-size: 15px;
+    max-width: 60%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
 
 .getinvolved__heading {}

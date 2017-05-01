@@ -1,5 +1,19 @@
-.content--home-page {}
+.content--home-page {
+	max-width: 100%;
+    margin: 0 60px 0 60px;
+    padding-bottom: 40px;
+    background-color: #E2E8F2;
+    border-top: solid black 5px;
+}
 
-.home-page__paragraph {}
+.home-page__paragraph {
+	text-align: center;
 
-.home-page__hole {}
+}
+
+
+.home-page__hole {
+	display: block;
+    width: 35%;
+    margin: 0 auto;
+}

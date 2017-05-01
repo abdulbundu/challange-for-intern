@@ -1,5 +1,149 @@
 body {}
 
+.header {
+	height: 100%;
+	margin: 0 60px 0 60px;
+	position: relative;
+	background-color: #94abb9;
+	border-bottom: solid 5px;
+
+}
+
+.header__heading {
+	text-align: center;
+	font-size: 5vw;
+	font-family: 'Oswald', Sans-Serif;
+	margin-top: 0;
+}
+
+.header__img--left {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.header__img--right {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.header__img {
+	margin: 10px;
+	height: 80px
+}
+
+.header__link {
+	color: #000505;
+	text-decoration: none;
+}
+
+.header__link:hover {
+	color: #FF0000;
+	text-decoration: none;
+}
+
+.primary-nav {
+	font-family: 'oswald' sans-serif;
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+
+.primary-nav__menu-list {
+	display: inline;
+	margin: 0 10px;
+	padding: 0;	
+
+}
+
+.primary-nav__menu-item {
+	margin: 0 10px;
+	padding: 0;
+	display: inline;
+	font-family: 'Oswald', sans-serif;
+}
+
+.notpage {
+	color: #F15206;
+    text-decoration: none
+}
+
+.primary-nav__link { 
+	border-left: solid white 4px;
+    border-right: solid white 4px;
+
+ }
+
+.primary-nav__link:hover {
+	color: #F15206;
+    text-decoration: underline;
+}
+
+.notpage:visited {
+	color: #F15206;
+	text-decoration: none;
+}
+
+.content {}
+
+.donate-link {
+	position: fixed;
+    bottom: 10px;
+    right: 8px;
+}
+
+.donate-link__element {}
+
+.donate-link__text{
+	text-align: center;
+    font-family: "Oswald", sans-serif;
+    color: #000000;
+    font-weight: bolder;
+}
+
+.donate-link__image{
+
+}
+
+.social-media {
+	position: fixed;
+    bottom: 10px;
+    left: 17px;
+}
+
+.social-media__link {
+	float: left;
+    clear: left;
+}
+
+.social-media__image {
+
+}
+
+.footer {
+	font-family: "Courier New", serif;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px 0 5px 0;
+}
+
+.thispage {
+	color: #E2E8F2;
+    background-color: black;
+    border-left: solid black 4px;
+    border-right: solid black 4px;
+    text-decoration: none;
+}
+
+.thispage:visited {
+	text-decoration: none;
+}
+
+
+/*@media (min-width: 700px) {
+
+
 .header {}
 
 .header__heading {}
@@ -18,7 +162,7 @@ body {}
 
 .primary-nav__menu-list {}
 
-.primary-nav-menu-iten {}
+.primary-nav__menu-item {}
 
 .notpage {}
 
@@ -26,7 +170,7 @@ body {}
 
 .primary-nav__link:hover {}
 
-.primary-nav__link:visited {}
+.notpage:visited {}
 
 .content {}
 
@@ -34,9 +178,9 @@ body {}
 
 .donate-link__element {}
 
-.donate-link__text
+.donate-link__text{}
 
-.donate-link__image
+.donate-link__image{}
 
 .social-media {}
 
@@ -49,3 +193,7 @@ body {}
 .thispage {}
 
 .thispage:visited {}
+
+
+
+}*/

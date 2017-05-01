@@ -1,27 +1,76 @@
-.content--team {}
+.content--team {
+	max-width: 100%;
+    margin: 0 60px 0 60px;
+    padding-bottom: 100px;
+    background-color: #E2E8F2;
+    border-top: solid black 5px;
 
-.team {}
+}
 
-.team__heading {}
+.team {
+    width: 60%;
+    margin: 60px auto;
+}
+
+.team__heading {
+	font-size: 2vw;
+    text-align: center;
+    border-bottom: solid black 4px;
+    margin-bottom: 40px;
+    clear: both;
+}
 
 .team__image {}
 
-.team__image--founder {}
+.team__image--founder {
+	width: 90%;
+    display: block;
+    margin: 80px auto 0 auto;
+}
 
-.team__image--zach {}
+.team__image--zach {
+	width: 35%;
+    float: left;
+    margin: 0 40px 0px 0;
+}
 
-.team__image--steve {}
+.team__image--steve {
+	width: 35%;
+    float: left;
+    margin: 0 40px 0px 0;
+}
 
-.team__image--volunteers {}
+.team__image--volunteers {
+	width: 80%;
+    display: block;
+    margin: 0px auto 0 auto;
+    clear: both;
+}
 
-.team__info {}
+.team__info {
+    font-family: "Oswald", sans-serif;
 
-.team__info--founder {}
+}
 
-.team__info--zach {}
+.team__info--founder {
+	border-bottom: solid black 4px;
+    margin-bottom: 50px;
+}
 
-.team__info--steve {}
+.team__info--zach {
+	font-family: "Oswald", sans-serif;
+}
+
+.team__info--steve {
+	
+}
 
 .team__info--volunteers {}
 
-.team__divider {}
+.team__divider {
+    font-size: 2vw;
+    text-align: center;
+    border-bottom: solid black 4px;
+    margin-bottom: 40px;
+    clear: both;
+}
