@@ -74,3 +74,85 @@
     margin-bottom: 40px;
     clear: both;
 }
+
+/**************************************************************/
+@media (max-width: 700px) {
+
+.content--team {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    background-color: #E2E8F2;
+    border-top: solid black 5px;
+
+}
+
+.team {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.team__heading {
+    font-size: 4vw;
+    text-align: center;
+    border-bottom: solid black 4px;
+    margin-bottom: 0;
+    clear: both;
+}
+
+.team__image {}
+
+.team__image--founder {
+    width: 100%;
+    display: block;
+    margin: 10px auto 0 auto;
+}
+
+.team__image--zach {
+    width: 80%;
+    float: none;
+    margin: 0 40px 0px 0;
+}
+
+.team__image--steve {
+    width: 80%;
+    float: none;
+    margin: 0 40px 0px 0;
+}
+
+.team__image--volunteers {
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+}
+
+.team__info {
+    font-family: "Oswald", sans-serif;
+
+}
+
+.team__info--founder {
+    border-bottom: solid black 4px;
+    margin-bottom: 20px;
+}
+
+.team__info--zach {
+    font-family: "Oswald", sans-serif;
+}
+
+.team__info--steve {
+    
+}
+
+.team__info--volunteers {}
+
+.team__divider {
+    font-size: 2vw;
+    text-align: center;
+    border-bottom: solid black 4px;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+}

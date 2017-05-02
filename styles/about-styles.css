@@ -110,69 +110,132 @@
 	font-family: "Courier New", serif;
     font-size: 1.2vw;
 }
+/*********************************************************/
 
-
-@media (min-width: 700px) {
-
-
+@media (max-width: 700px) {
 
 .content--about {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    background-color: #E2E8F2;
+    border-top: solid black 5px;
 }
 
 .about__container {
+    max-width: 68%;
+    margin: 10px auto;
+    font-family: "Oswald", sans-serif;
 }
 
-.about__paragraph {}
+.about__paragraph {
+    font-family: "Courier New", serif;
+    font-size: 4vw;
+}
 
 .about__paragraph--clear {}
 
 .manhole {
+    display: block;
+    width: 85%;
+    margin: 10px;
+    float: none;
 }
 
 .toiletferret {
+    display: block;
+    width: 85%;
+    margin: 0 10px 0 10px;
+    float: none;
 }
 
 .adopter-image--left {
+    display: block;
+    width: 100%;
+    float: none;
+    margin: 0 auto;
 }
 
 .adopter-image--right {
+    display: block;
+    width: 100%;
+    float: none;
+    margin: 0 auto;
 }
 
 .adopter-caption--left {
+    font-size: 4vw;
+    float: none;
+    margin: 0 auto 20px;
 }
 
 .adopter-caption--right {
+    font-size: 4vw;
+    float: none;
 }
 
 .endorsements {
+    display: inline-block;
+    clear: both;
+    margin-top: 10px;
 }
 
 .endorsements__heading {
+    font-size: 6vw;
+    text-align: center;
+    border-bottom: solid black 4px;
 }
 
 .hilton__image {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    border: solid black 2px;
+    float: none;
 }
 
 .hilton__blurb {
+    margin-left: 0%;
+    margin-bottom: 40px;
 }
 
 .hilton__heading {
-	  
+    margin: 0 auto;
+      
 }
 
 .hilton__quote {
+    font-family: "Courier New", serif;
+    font-size: 4vw;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .harry__image {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    border: solid black 2px;
+    float: none;
 }
 
 .harry__blurb {
+    margin-left: 0;
+    margin-bottom: 0;
 }
 
 .harry__heading {
+    font-size: 5vw;
+    margin-top: 1px;
 }
 
 .harry__quote {
+    font-family: "Courier New", serif;
+    font-size: 4vw;
+    margin-left: 0;
+    margin-right: 0;
 }
+
+
 
 }
