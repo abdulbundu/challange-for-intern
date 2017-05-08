@@ -37,9 +37,9 @@
 }
 
 .adopter-image--right {
-	display: block;
+    margin: 0 auto;
     width: 45%;
-    float: right;
+    padding-left: 35px;
 }
 
 .adopter-caption--left {
@@ -51,6 +51,7 @@
 .adopter-caption--right {
 	font-size: 1.4vw;
     float: right;
+    padding-right: 8px;
 }
 
 .endorsements {
@@ -161,6 +162,7 @@
     width: 100%;
     float: none;
     margin: 0 auto;
+    padding-left: 0;
 }
 
 .adopter-caption--left {
