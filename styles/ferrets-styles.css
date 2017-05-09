@@ -110,9 +110,8 @@
 .content--ferrets {
     max-width: 100%;
     margin: 0 auto;
-    padding-bottom: 120%;
     background-color: #E2E8F2;
-    border-top: solid black 5px;
+    padding-bottom: 310px;
 }
 
 .ferrets-nav {
@@ -125,6 +124,7 @@
     font-size: 3vw;
     font-family: "Oswald", sans-serif;
     list-style-type: none;
+    display: none;
 }
 
 .ferrets-nav__menu {
@@ -149,28 +149,22 @@
 
 .ferrets-intro__image {
     float: none;
-    margin: 80px;
-    margin-bottom: 0;
-    margin-top: 40px;
-    width: 50%
-}
+    margin: 10px 60px 0 60px;
+    width: 61%;
+    }
 
 .ferrets-intro__paragraph {
     font-size: 4vw;
-    display: block;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 10px;
-    padding-bottom: 0;
     font-family: "Oswald", sans-serif;
 }
 
 .ferrets-inventory__heading {
     font-size: 5vw;
-    text-align: center;
-    border-bottom: solid black 4px;
-    margin-top: 0;
+    margin-top: 10px;
+    font-family: "Oswald", sans-serif;
+    border-bottom: none;
+    text-decoration: underline;
 }
 
 .ferrets-inventory__ferret-name {
@@ -194,11 +188,8 @@
 .ferrets-inventory__ferret-image {
     float: left;
     margin-top: 5px;
-    margin-left: 10px;
-    margin-right: 30px;
-    display: inline-block;
     margin-bottom: 10px;
-    width: 80%;
+    width: 90%;
 }
 
 .ferrets-inventory__ferret-text {
@@ -208,20 +199,18 @@
     margin-bottom: 0;
 }
 
-.ferrets-inventory__ferret-details-list {}
+.ferrets-inventory__ferret-details-list {
+    font-size: 4vw;
+}
 
 .ferrets-inventory__ferret-detail {}
 
 .ferrets-inventory {
     font-size: 3vw;
     display: block;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 100px;
+    width: 90%;
     font-family: "Oswald", sans-serif;
     margin-top: 5px;
-    margin: 0 auto;
 }
 
 }

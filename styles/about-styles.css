@@ -117,14 +117,14 @@
 
 .content--about {
     max-width: 100%;
-    margin: 0 auto;
-    padding-bottom: 40px;
+    margin: 0 auto 20px;
+    padding-bottom: 20px;
     background-color: #E2E8F2;
     border-top: solid black 5px;
 }
 
 .about__container {
-    max-width: 68%;
+    max-width: 90%;
     margin: 10px auto;
     font-family: "Oswald", sans-serif;
 }
@@ -138,28 +138,28 @@
 
 .manhole {
     display: block;
-    width: 85%;
-    margin: 10px;
+    width: 60%;
+    margin: 0 auto;
     float: none;
 }
 
 .toiletferret {
     display: block;
-    width: 85%;
-    margin: 0 10px 0 10px;
+    width: 60%;
+    margin: 0 auto;
     float: none;
 }
 
 .adopter-image--left {
     display: block;
-    width: 100%;
+    width: 90%;
     float: none;
     margin: 0 auto;
 }
 
 .adopter-image--right {
     display: block;
-    width: 100%;
+    width: 90%;
     float: none;
     margin: 0 auto;
     padding-left: 0;
@@ -169,28 +169,31 @@
     font-size: 4vw;
     float: none;
     margin: 0 auto 20px;
+    text-align: center;
 }
 
 .adopter-caption--right {
     font-size: 4vw;
     float: none;
+    text-align: center;
 }
 
 .endorsements {
     display: inline-block;
     clear: both;
-    margin-top: 10px;
+    margin-top: 56px;
 }
 
 .endorsements__heading {
-    font-size: 6vw;
+    font-size: 8vw;
     text-align: center;
-    border-bottom: solid black 4px;
+    text-decoration: underline;
+    border-bottom: none;
 }
 
 .hilton__image {
     display: block;
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     border: solid black 2px;
     float: none;
@@ -202,20 +205,20 @@
 }
 
 .hilton__heading {
-    margin: 0 auto;
-      
+    font-size: 5vw;
+    margin-top: 8px;
+    margin-bottom: 0;
 }
 
 .hilton__quote {
     font-family: "Courier New", serif;
     font-size: 4vw;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
 }
 
 .harry__image {
     display: block;
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     border: solid black 2px;
     float: none;
@@ -228,14 +231,14 @@
 
 .harry__heading {
     font-size: 5vw;
-    margin-top: 1px;
+    margin-top: 8px;
+    margin-bottom: 0;
 }
 
 .harry__quote {
     font-family: "Courier New", serif;
     font-size: 4vw;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
 }
 
 
