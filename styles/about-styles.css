@@ -12,10 +12,6 @@
     font-family: "Oswald", sans-serif;
 }
 
-.about__paragraph {}
-
-.about__paragraph--clear {}
-
 .manhole {
 	display: block;
     width: 20%;
@@ -124,45 +120,47 @@
 }
 
 .about__container {
-    max-width: 90%;
-    margin: 10px auto;
-    font-family: "Oswald", sans-serif;
+    max-width: 100%;
+    display: inline-block;
+    text-align: center;
 }
+
 
 .about__paragraph {
-    font-family: "Courier New", serif;
-    font-size: 4vw;
+    display: inline-block;
+    text-align: justify;
+    font-size: 3vw;
+    padding: 20px;
+    margin: 0;
 }
 
-.about__paragraph--clear {}
 
 .manhole {
-    display: block;
-    width: 60%;
-    margin: 0 auto;
+    width: 37%;
     float: none;
+    margin: 0;
+    display: inline-block;
 }
 
 .toiletferret {
-    display: block;
-    width: 60%;
-    margin: 0 auto;
+    width: 40%;
+    margin: 0;
+    display: inline-block;
     float: none;
 }
 
 .adopter-image--left {
-    display: block;
-    width: 90%;
+    width: 50%;
     float: none;
-    margin: 0 auto;
+    margin: 0;
+    display: inline-block;
 }
 
 .adopter-image--right {
-    display: block;
-    width: 90%;
-    float: none;
-    margin: 0 auto;
-    padding-left: 0;
+    display: inline-block;
+    width: 50%;
+    margin: 0;
+    padding: 0;
 }
 
 .adopter-caption--left {
@@ -186,16 +184,15 @@
 
 .endorsements__heading {
     font-size: 8vw;
-    text-align: center;
     text-decoration: underline;
     border-bottom: none;
 }
 
 .hilton__image {
-    display: block;
-    width: 80%;
-    margin: 0 auto;
+    width: 40%;
+    margin: 0;
     border: solid black 2px;
+    display: inline-block;
     float: none;
 }
 
@@ -211,17 +208,18 @@
 }
 
 .hilton__quote {
-    font-family: "Courier New", serif;
     font-size: 4vw;
     margin: 0;
+    font-family: none;
+    text-align: justify;
+    padding: 8px;
 }
 
 .harry__image {
-    display: block;
-    width: 80%;
-    margin: 0 auto;
-    border: solid black 2px;
+    width: 40%;
+    margin: 0;
     float: none;
+    display: inline-block;
 }
 
 .harry__blurb {
@@ -236,9 +234,11 @@
 }
 
 .harry__quote {
-    font-family: "Courier New", serif;
     font-size: 4vw;
     margin: 0;
+    font-family: none;
+    text-align: justify;
+    padding: 8px;
 }
 
 
